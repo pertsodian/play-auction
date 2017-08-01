@@ -4,12 +4,17 @@ This app combines Auction and traditional Malay game named Tikam-Tikam together.
 
 This project is created to facilitate Citibank Singapore's Charity Golf event in 2016.
 
+### Requirements
+
+* Java 1.8
+* [SBT](https://www.scala-sbt.org/download.html)
+
 ### How to run locally
 
 * Clean up old entries in <project_dir>/conf/ticket.log
-* Open Command Promt
+* Open Command Prompt
 * Go to project directory
-* `activator`
+* `sbt`
 * `run`
 * Open browser
 	* `localhost:9000/form`: Bid submission page
