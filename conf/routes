@@ -1,0 +1,6 @@
+GET     /                           controllers.ResultController.index()
+GET     /finalResults               controllers.ResultController.finalResults()
+GET     /getResults                 controllers.ResultController.getResults()
+GET     /form                       controllers.TicketsController.form()
+POST    /submit                     controllers.TicketsController.submit()
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

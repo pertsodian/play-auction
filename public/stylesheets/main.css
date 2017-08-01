@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    vertical-align: middle;
+}
+
+caption {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.blank {
+    height: 10px !important;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+tr[id^="header"] {
+    font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 1.2em;
+}
+
+th {
+    font-weight: bold;
+    border: 2px solid #000;
+}
+
+th[type="NO_BIDDERS"] {
+     background-color: #B8B8B8
+}
+
+th[type="DONE"] {
+    background-color: #00CC66
+}
+
+th[type="LOW"] {
+    background-color: #FF3399
+}
+
+th[type="COMPETE"] {
+    background-color: #CCFF66
+}
+
+th[type="MULTIPLE"] {
+    background-color: #FF9966
+}
+
+th, td {
+    padding: 0.2rem;
+    text-align: center;
+}
+
+td[id^="maxBidder"] {
+    border-bottom: 2px solid #000;
+}
+
+td {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 100;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+p {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: 100;
+    color: #000;
+    text-align: center;
+}

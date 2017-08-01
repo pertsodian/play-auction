@@ -1,0 +1,21 @@
+@main("Auction") {
+    <form action="@routes.TicketsController.submit()" method="post">
+        Ticket ID:<br>
+        <input required type="number" name="id"/>
+        <br>
+        Slot:<br>
+        <input required type="number" name="slot" min="1" max="24"/>
+        <br>
+        Bid Amount:<br>
+        <input required type="number" name="bid" min="50"/>
+        <br>
+        Name:<br>
+        <input required type="text" name="bidder"/>
+        <br>
+        Table:<br>
+        <input required type="number" name="table" min="1" max="100"/>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+}
